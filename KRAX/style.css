@@ -1,0 +1,14 @@
+/* 
+селектор {
+    свойство:значение;
+}
+*/
+
+body {
+    color:brown
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
