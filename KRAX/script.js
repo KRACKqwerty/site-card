@@ -24,3 +24,29 @@ function toggle_mode() {
 
 }
 button.addEventListener('click',toggle_mode)
+
+
+
+function my_anime() {
+    console.log('working///')
+    anime(
+        {   
+            targets:'.rew1',
+            duration:2000,
+            scaleX:-1,
+            // delay:100,
+            // endDelay:100,
+            complete: function() {
+                anime({
+                    // delay:1000,
+                    targets:'.rew1',
+                    duration:2000,
+                    scaleX:1,
+                    
+                })
+            }
+        }
+    )
+    setTimeout(my_anime,1000)
+}
+my_anime()

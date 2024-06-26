@@ -6,7 +6,7 @@
 
     <script src="script.js" defer></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- <script src="https://cdn"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
 
     <link rel="icon" href="fz.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -18,20 +18,23 @@
     <header class="" data-aos="fade-down">
       <div class="hat">
         <div class="logo">
-          <img src="fz.png" width="50" />
+          <img src="fz.png" width="50wv" height="50hv" />
         </div>
         <div class="link">
           <a href="#desc">Описание</a>
           <!-- <a href="">Биография</a> -->
           <a href="#rews">Портфолио</a>
-          <button class="mode-button">Сменить тему</button>
+          <a class="mode-button">
+            <!-- Сменить тему -->
+             <img src="fz.png" width="50wv"/>
+          </a>
         </div>
       </div>
     </header>
     <main class="">
       <h1 id="desc" data-aos="fade-down">Денис Денисов</h1>
       <div class="person" >
-        <img src="images.jpeg" data-aos="fade-right"/>
+        <img id="foto" src="images.jpeg" data-aos="fade-right"/>
         <div class="description" data-aos="fade-left">
           
           <p>Гений, миллиардер, плейбой, филантроп.</p>

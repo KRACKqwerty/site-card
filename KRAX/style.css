@@ -83,6 +83,8 @@ a:active {
 .mode-button {
     border: 1px solid black;
     background-color: white;
+    width: 10%;
+    text-align: center;
     /* border: none; */
     cursor: pointer;
     /* font-size: 1rem; */
@@ -151,4 +153,11 @@ main{
     padding-bottom: 1000px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+#lol{
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    left: 5px;
 }
